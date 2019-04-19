@@ -1,0 +1,490 @@
+/* Layout - Store > Add Form */
+
+.af-header {
+    border-bottom: 1px solid #DCE5EC;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-top: 60px;
+    height: 140px;
+    max-width: 780px;
+}
+.afh-bns { background: url(/directory/images/addheader/bns.png) no-repeat right top;}
+.afh-rq {background: url(/directory/images/addheader/rq.png) no-repeat right top;}
+.afh-rq-gold { background: url(/directory/images/addheader/rq-gold.png) no-repeat right top;}
+.afh-nw { background: url(/directory/images/addheader/nw.png) no-repeat right top;}
+.afh-tera { background: url(/directory/images/addheader/tera.png) no-repeat right top;}
+.afh-aion { background: url(/directory/images/addheader/aion.png) no-repeat right top;}
+.afh-karos {background: url(/directory/images/addheader/karos.png) no-repeat right top;}
+.afh-bdo {background: url(/directory/images/addheader/bdo.png) no-repeat right top;}
+.afh-warface {background: url(/directory/images/addheader/warface.png) no-repeat right top;}
+.afh-mgame {background: url(/directory/images/addheader/mgame.png) no-repeat right top;}
+.afh-cr { background: url(/directory/images/addheader/cr.png) no-repeat right top;}
+.afh-coc { background: url(/directory/images/addheader/coc.png) no-repeat right top;}
+.afh-agame {background: url(/directory/images/addheader/agame.png) no-repeat right top;}
+.afh-revelation { background: url(/directory/images/addheader/revelation.png) no-repeat right top; }
+.afh-lol { background: url(/directory/images/addheader/lol.png) no-repeat right top;}
+.afh-archeage { background: url(/directory/images/addheader/archeage.png) no-repeat right top;}
+.afh-allods { background: url(/directory/images/addheader/allods.png) no-repeat right top;}
+.afh-steam {background: url("/directory/images/addheader/dota2.png") no-repeat right top;}
+.afh-csgo {background: url("/directory/images/addheader/csgo.png") no-repeat right top;}
+.afh-dota2 {background: url("/directory/images/addheader/dota2.png") no-repeat right top; }
+.afh-uplay {background: url("/directory/images/addheader/uplay.png") no-repeat right top;}
+.afh-battlenet {background: url("/directory/images/addheader/wow.png") no-repeat right top;}
+.afh-wow {background: url("/directory/images/addheader/wow.png") no-repeat right top;}
+.afh-hearthstone {background: url("/directory/images/addheader/hearthstone.png") no-repeat right top;}
+.afh-overwatch {background: url("/directory/images/addheader/overwatch.png") no-repeat right top;}
+.afh-origin {background: url("/directory/images/addheader/origin.png") no-repeat right top;}
+.afh-social-club {background: url("/directory/images/addheader/social-club.png") no-repeat right top;}
+.afh-wargaming {background: url("/directory/images/addheader/wot.png") no-repeat right top;}
+.afh-wot {background: url(/directory/images/addheader/wot.png) no-repeat right top;}
+.afh-wows {background: url(/directory/images/addheader/wows.png) no-repeat right top;}
+.afh-wowp {background: url(/directory/images/addheader/wowp.png) no-repeat right top;}
+.afh-warframe {background: url("/directory/images/addheader/warframe.png") no-repeat right top;}
+.afh-crossout {background: url("/directory/images/addheader/crossout.png") no-repeat right top;}
+.afh-skyforge {background: url("/directory/images/addheader/skyforge.png") no-repeat right top;}
+.afh-albion {background: url("/directory/images/addheader/albion.png") no-repeat right top;}
+.afh-paladins {background: url("/directory/images/addheader/paladins.png") no-repeat right top;}
+.afh-fortnite {background: url(/directory/images/addheader/fortnite.png) no-repeat right top;}
+.afh-la2 {background: url("/directory/images/addheader/la2.png") no-repeat right top;}
+.afh-la2revolution {background: url("/directory/images/addheader/la2revolution.png") no-repeat right top;}
+.afh-war-thunder {background: url("/directory/images/addheader/war-thunder.png") no-repeat right top;}
+.afh-tanki-online {background: url("/directory/images/addheader/tanki-online.png") no-repeat right top;}
+.afh-pw {background: url("/directory/images/addheader/pw2.png") no-repeat right top;}
+.afh-teso {background: url("/directory/images/addheader/teso.png") no-repeat right top;}
+.afh-destiny2 {background: url("/directory/images/addheader/destiny2.png") no-repeat right top;}
+
+.af-title {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 2.5em;
+    font-weight: 100;
+}
+.addform {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 40px;
+}
+.addform-col-1,
+.addform-col-2,
+.addform-col-3 {
+    padding: 0 10px;
+    display: inline-block;
+}
+.addform-col-1 {
+    width: 100%;
+}
+.addform-col-2 {
+    width: 50%;
+}
+.addform-col-3 {
+    width: 33.3%;
+}
+.wpcf7-text,
+.wpcf7-select,
+.wpcf7-number,
+.wpcf7-textarea {
+    padding: 13px 20px;
+    width: 100%;
+    border: 1px solid #DCE5EC;
+    margin: 10px 0 30px 0;
+    background: #FAFBFD;
+}
+.wpcf7-text:focus,
+.wpcf7-select:focus,
+.wpcf7-number:focus,
+.wpcf7-textarea:focus {
+    border-color:#c2d2e0;
+}
+.wpcf7-textarea {
+    min-height: 160px;
+}
+.af-caption {
+    position: relative;
+    text-align: center;
+}
+    
+.af-caption input {
+    padding: 13px 25px;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.af-caption ::-webkit-input-placeholder {font-size: 22px}
+.af-caption ::-moz-placeholder {font-size: 22px}
+.af-caption :-moz-placeholder {font-size: 22px}
+.af-caption :-ms-input-placeholder {font-size: 22px}
+
+.af-price input {
+    display: block;
+    padding: 5px;
+    border: 0;
+    background: none;
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    color: #0BCA00;
+    border-bottom: 2px solid #0BCA00!important;
+}
+.af-price {
+    max-width: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+}
+.file-upload {
+    text-align: center;
+    max-width: 315px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+}
+.hideimg {
+    width: 100%!important;
+    position: relative;
+}
+.delimg {
+    position: absolute;
+    top: 25px;
+    right: -25px;
+}
+.delimg:after {
+    font-family: fontawesome;
+    content: '\f1f8';
+    font-size: 25px;
+    color: #dce5ec;
+}
+.delimg:hover:after {
+    color: #f66261;
+}
+.file-upload .addimg {
+    width: 100%!important;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border: none;
+}
+.addimg:before {
+    content: '\f067';
+    font-family: fontawesome;
+    margin-right: 9px;
+    color: #0bca00;
+}
+.cont-af-area {
+    margin: 40px 0 30px 0;
+    padding-top: 30px;
+    border-top: 1px solid #dce5ec;
+}
+.cont-af-area p, .cont-af-area h3 {
+    display: inline-block;
+}
+.cont-af-area .hint {
+    vertical-align: 1px;
+}
+.af-submit {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.af-counter {
+    color: #AFBBC5;
+    position: absolute;
+    right: 8px;
+    top: 45px;
+}
+.contactselection {
+    position: relative;
+}
+.contactselection .contactselection {
+    position:absolute;
+    max-width: 100px;
+    top: 1px;
+    left: 1px;
+    z-index:1;
+}
+.contactselection select {
+    padding: 12px 10px;
+    border: 0;
+}
+.contactselection input {
+    padding-left: 110px;
+}
+.acceptance {
+    color: #AFBBC5;
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+}
+
+div.wpcf7-response-output {
+    margin: 25px auto;
+    max-width: 780px;
+    padding: 40px;
+    background: #fff;
+    font-size: 17px;
+    border-left: 4px solid;
+}
+
+div.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+    border-color: #0bca00;
+}
+div.wpcf7-spam-blocked,
+div.wpcf7-mail-sent-ng {
+    border-color: #e24747;
+}
+
+div.wpcf7-validation-errors {
+    border-color: #f66261;
+}
+
+.wpcf7-form-control-wrap {
+    display: block;
+    position: relative;
+}
+.wpcf7-checkbox {
+    display: block;
+    text-align: center;
+    padding: 0 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    user-select: none;
+}
+span.wpcf7-not-valid-tip {
+    color: #fff;
+    z-index: 1;
+    background: #f66261;
+    border-radius: 3px;
+    font-size: 14px;
+    width: 120px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    top: 60px;
+    right: 0;
+    cursor: default;
+}
+
+span.wpcf7-not-valid-tip:before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 8px;
+    width: 0;
+    height: 0;
+    border-width: 0 6px 6px;
+    border-style: solid;
+    border-color: transparent transparent #f66261;
+}
+
+.wpcf7-file {
+    margin: 10px 0;
+    background: #fafbfd;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #dce5ec;
+    outline: none;
+    width: 300px;
+    color: #8a8f9c;
+    cursor: pointer;
+}
+.wpcf7-file:hover {
+    background: #f2f5f9;
+}
+.wpcf7-file:active {
+    border: 1px solid #c4d6e4;
+}
+span.wpcf7-list-item,
+span.wpcf7-list-item label,
+span.wpcf7-list-item input {
+    cursor: pointer;
+}
+.wpcf7-display-none {
+    display: none;
+}
+
+span.ajax-loader {
+    background-image: url('/directory/images/source/loader.gif')!important;
+    background-size: 100%;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    right: 10px;
+    top: -2px;
+    z-index: -1;
+    visibility: hidden;
+}
+span.active.ajax-loader {
+    visibility: visible;
+}
+div.wpcf7 div.ajax-error {
+    display: none;
+}
+
+div.wpcf7 .placeheld {
+    color: #888;
+}
+
+.wpcf7-checkbox label > input {
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+}
+.wpcf7-checkbox label > span {
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    color: #8a8f9c;
+    background: #e3eaf0;
+    border-radius: 3px;
+    padding: 0 19px;
+    line-height: 28px;
+    transition: .2s, background 0s, color 0s;
+}
+.wpcf7-checkbox label > span:hover,
+.wpcf7-checkbox label > input:checked + span {
+    color: #fff;
+    background: #8a8f9c;
+    
+}
+.wpcf7-checkbox label > input:checked + span {
+    padding: 0 14px 0 24px;
+}
+.wpcf7-checkbox label > span:before {
+    position:absolute;
+    left: 3px;
+    content: '\f00c';
+    font-family: fontawesome;
+    font-size: 10px;
+    transition: inherit;
+    opacity: 0;
+}
+.wpcf7-checkbox label > input:checked + span:before {
+    left: 8px;
+    opacity: 1;
+}
+
+
+/* Layout - Store > Sell gold form */
+
+.rqgold {
+    display: block;
+    position: relative;
+}
+.rqgold:after {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    content: 'KK';
+    font-size: 30px;
+    color: #0bca00;
+}
+.rqgold input {
+    padding: 5px 30px;
+}
+.gold-price-area {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.gold-price {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.gold-price tr {
+    border-bottom: 1px solid #DCE5EC;
+}
+.gold-price tr:last-child {
+    border: none;
+}
+.gold-price th {
+    padding: 15px 10px;
+    font-size: 22px;
+    color: #8a8f9c;
+}
+.gold-price td {
+    padding: 15px 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.gold-price del {
+    vertical-align: 7px;
+    font-size: 15px;
+}
+.server-price {
+    text-align: right;
+}
+.server-price > ins {
+    position: relative;
+    color: #8a8f9c;
+    font-size: 14px;
+    bottom: 10px;
+    text-decoration: none;
+}
+.avlb {
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.stock-3 {
+    background: #68da62;
+}
+.stock-2 {
+    background: #ffd959;
+}
+.stock-1 {
+    background: #de6868;
+}
+
+.gold-calc {
+    display: inline-block;
+    max-width: 850px;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    background: #dce5ec;
+}
+.salary-initial > input, .gold-select {
+    max-width: 90px;
+    color: #272e40;
+    padding: 2px 10px;
+    margin: 10px 5px;
+    background: none;
+    border-bottom: 2px solid #0bca00;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.salary-initial > input {
+    border: none;
+    border-bottom: 2px solid #0bca00;
+}
+.gold-select {
+    max-width: 115px;
+}
+.gold-salary {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #0bca00;
+}
